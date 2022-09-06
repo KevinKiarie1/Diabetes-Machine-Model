@@ -30,11 +30,11 @@ def main():
     Pregnancies = st.text_input('Number of pregnancies')
     glucose = st.text_input('Glucose level')
     BloodPressure = st.text_input('Blood Pressue level')
-    SkinThickness = st.text_input('Skin thickness')
+    SkinThickness = st.text_input('Skin thickness value')
     Insulin = st.text_input('Insulin Level')
     BMI = st.text_input('BMI level')
     DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function level')
-    Age = st.text_input('Age')
+    Age = st.text_input('Age of the person')
     
     diagnosis = ''
     
